@@ -1,12 +1,89 @@
 .App {
-  background-color: #282c34;
+  font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .App-header {
   text-align: center;
-  min-height: 100vh;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #525B76;
+  
 }
 
+/*card related css*/
+.Card-container{
+  background-color: white;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 6px;
+  margin: 12px;
+}
 
+.Card-title{
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 2%;
+}
+
+.Card-title-content{
+  margin-top: 7px;
+  margin-bottom: 4px;
+  color: #525B76;
+  font-weight: bold;
+}
+
+.Card-text{
+  margin-top: 30px;
+}
+
+/*Box related css*/
+
+.Box-container-row{
+  height:400px;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  border-radius: 20px;
+  margin: 12px;
+}
+
+.Box-container-minirow{
+  height: 110px;
+  margin:14px;
+}
+
+.Box-container-col{
+  height: 105px;
+  background-color: antiquewhite;
+  border-radius: 20px;
+  border: 3px solid black;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5);
+  margin:14px 2px; 
+}
+
+.red{
+  background-color: red;
+  opacity: 40%;
+}
+.blue{
+  background-color: blue;
+  opacity: 40%;
+}
+.green{
+  background-color: green;
+  opacity: 40%;
+}
+
+/*Range related css*/
+.Range-control{
+  margin-left: 12px;
+  width:46%;
+}
+.range-control-title{
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 2%;
+}
+
+.Range-form-label{
+  font-weight: bold;
+  padding: 2px;
+  margin-left: 2%;
+}
